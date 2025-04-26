@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Aluno {
+    @Id
     private Long id;
     private String nomeAluno;
     private String emailAluno;
